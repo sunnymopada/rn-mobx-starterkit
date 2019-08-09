@@ -9,7 +9,7 @@
   dependencies:
     "@babel/highlight" "^7.0.0"
 
-"@babel/core@^7.0.0", "@babel/core@^7.1.0", "@babel/core@^7.5.5":
+"@babel/core@7.5.5", "@babel/core@^7.0.0", "@babel/core@^7.1.0":
   version "7.5.5"
   resolved "https://ibuild.jfrog.io/ibuild/api/npm/npm/@babel/core/-/core-7.5.5.tgz#17b2686ef0d6bc58f963dddd68ab669755582c30"
   integrity sha1-F7JobvDWvFj5Y93daKtml1VYLDA=
@@ -253,7 +253,7 @@
     "@babel/helper-create-class-features-plugin" "^7.5.5"
     "@babel/helper-plugin-utils" "^7.0.0"
 
-"@babel/plugin-proposal-decorators@^7.4.4":
+"@babel/plugin-proposal-decorators@7.4.4":
   version "7.4.4"
   resolved "https://ibuild.jfrog.io/ibuild/api/npm/npm/@babel/plugin-proposal-decorators/-/plugin-proposal-decorators-7.4.4.tgz#de9b2a1a8ab0196f378e2a82f10b6e2a36f21cc0"
   integrity sha1-3psqGoqwGW83jiqC8QtuKjbyHMA=
@@ -625,7 +625,7 @@
     pirates "^4.0.0"
     source-map-support "^0.5.9"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.5.5":
+"@babel/runtime@7.5.5", "@babel/runtime@^7.0.0":
   version "7.5.5"
   resolved "https://ibuild.jfrog.io/ibuild/api/npm/npm/@babel/runtime/-/runtime-7.5.5.tgz#74fba56d35efbeca444091c7850ccd494fd2f132"
   integrity sha1-dPulbTXvvspEQJHHhQzNSU/S8TI=
@@ -927,7 +927,7 @@
     shell-quote "1.6.1"
     ws "^1.1.0"
 
-"@react-native-community/eslint-config@^0.0.5":
+"@react-native-community/eslint-config@0.0.5":
   version "0.0.5"
   resolved "https://ibuild.jfrog.io/ibuild/api/npm/npm/@react-native-community/eslint-config/-/eslint-config-0.0.5.tgz#584f6493258202a57efc22e7be66966e43832795"
   integrity sha1-WE9kkyWCAqV+/CLnvmaWbkODJ5U=
@@ -1362,7 +1362,7 @@ babel-eslint@10.0.1:
     eslint-scope "3.7.1"
     eslint-visitor-keys "^1.0.0"
 
-babel-jest@^24.8.0:
+babel-jest@24.8.0, babel-jest@^24.8.0:
   version "24.8.0"
   resolved "https://ibuild.jfrog.io/ibuild/api/npm/npm/babel-jest/-/babel-jest-24.8.0.tgz#5c15ff2b28e20b0f45df43fe6b7f2aae93dba589"
   integrity sha1-XBX/KyjiCw9F30P+a38qrpPbpYk=
@@ -2257,7 +2257,7 @@ eslint-visitor-keys@^1.0.0:
   resolved "https://ibuild.jfrog.io/ibuild/api/npm/npm/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#3f3180fb2e291017716acb4c9d6d5b5c34a6a81d"
   integrity sha1-PzGA+y4pEBdxastMnW1bXDSmqB0=
 
-eslint@^6.1.0:
+eslint@6.1.0:
   version "6.1.0"
   resolved "https://ibuild.jfrog.io/ibuild/api/npm/npm/eslint/-/eslint-6.1.0.tgz#06438a4a278b1d84fb107d24eaaa35471986e646"
   integrity sha1-BkOKSieLHYT7EH0k6qo1RxmG5kY=
@@ -3660,7 +3660,7 @@ jest-worker@^24.6.0:
     merge-stream "^1.0.1"
     supports-color "^6.1.0"
 
-jest@^24.8.0:
+jest@24.8.0:
   version "24.8.0"
   resolved "https://ibuild.jfrog.io/ibuild/api/npm/npm/jest/-/jest-24.8.0.tgz#d5dff1984d0d1002196e9b7f12f75af1b2809081"
   integrity sha1-1d/xmE0NEAIZbpt/Evda8bKAkIE=
@@ -4161,7 +4161,7 @@ metro-react-native-babel-preset@0.54.1:
     metro-babel7-plugin-react-transform "0.54.1"
     react-transform-hmr "^1.0.4"
 
-metro-react-native-babel-preset@^0.55.0:
+metro-react-native-babel-preset@0.55.0:
   version "0.55.0"
   resolved "https://ibuild.jfrog.io/ibuild/api/npm/npm/metro-react-native-babel-preset/-/metro-react-native-babel-preset-0.55.0.tgz#d5d4a6cbe9ccbcedd72fcbb71c0c311e3d56876e"
   integrity sha1-1dSmy+nMvO3XL8u3HAwxHj1Wh24=
@@ -4437,14 +4437,14 @@ mobx-react-lite@1.4.0:
   resolved "https://ibuild.jfrog.io/ibuild/api/npm/npm/mobx-react-lite/-/mobx-react-lite-1.4.0.tgz#193beb5fdddf17ae61542f65ff951d84db402351"
   integrity sha1-GTvrX93fF65hVC9l/5UdhNtAI1E=
 
-mobx-react@^6.1.2:
+mobx-react@6.1.2:
   version "6.1.2"
   resolved "https://ibuild.jfrog.io/ibuild/api/npm/npm/mobx-react/-/mobx-react-6.1.2.tgz#ed705566edca4baf1c6d87c3eff3dcd17ba09573"
   integrity sha1-7XBVZu3KS68cbYfD7/Pc0XuglXM=
   dependencies:
     mobx-react-lite "1.4.0"
 
-mobx@^5.13.0:
+mobx@5.13.0:
   version "5.13.0"
   resolved "https://ibuild.jfrog.io/ibuild/api/npm/npm/mobx/-/mobx-5.13.0.tgz#0fd68f10aa5ff2d146a4ed9e145b53337cfbca59"
   integrity sha1-D9aPEKpf8tFGpO2eFFtTM3z7ylk=
